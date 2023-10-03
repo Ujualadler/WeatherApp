@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
+
+.root{
+    height:400px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    border-radius: 20px 20px 20px 20px;
+    background-image: url("https://ubuntuhandbook.org/wp-content/uploads/2021/07/M-Maggs-pixabay.jpg");
+    /* background-color: rgba(40, 40, 40, 0.5); */
+ 
+}
+
+.top{
+    height: 60px;
+    background-color: #161515;
+    color: rgb(83, 77, 77);
+    padding: 10px;
+    border-radius: 20px 20px 0 0;
+    font-family: 'Recursive', sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header{
+    color: whitesmoke;
+    margin: 10px 0px 0px 10px;
+    font-size: 25px;
+    border-radius: 20px 20px 0 0;
+    font-family: 'Recursive', sans-serif;
+}
+
+.day{
+    padding: 15px;
+    color: whitesmoke;
+    font-family: 'Recursive', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.temp{
+    padding: 15px;
+    color: whitesmoke;
+    font-family: 'Recursive', sans-serif;
+    font-size: 18px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sunrise-sunset{
+    padding: 15px;
+    color: whitesmoke;
+    font-family: 'Recursive', sans-serif;
+    font-size: 16px;
+}
+
+.description{
+    padding: 15px;
+    color: whitesmoke;
+    font-family: 'Recursive', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.button{
+    width: 35px;
+    height: 35px;
+}
