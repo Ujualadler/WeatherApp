@@ -17,7 +17,7 @@ export function LocationInput({setLat,setLong,fetchData}) {
           access_token: MAPBOX_API_KEY,
           types: "place,locality", // Include multiple place types separated by commas
           limit: 4, // Number of suggestions to retrieve
-          country: "IN",
+          // country: "IN",
         };
     
         try {

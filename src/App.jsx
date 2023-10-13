@@ -3,6 +3,7 @@ import { Weather } from './Components/Weather';
 import { Dimmer, Loader } from 'semantic-ui-react'
 import './App.css'
 import { LocationInput } from "./Components/LocationInput";
+import SpeechSynthesisComponent from "./Components/SpeechSynthesis";
 
 export default function App() {
 
@@ -43,6 +44,7 @@ export default function App() {
       )}
    <div style={{display:'flex',justifyContent:'center'}}>
     <LocationInput fetchData={fetchData} setLat={setLat} setLong={setLong}/>
+    {/* <SpeechSynthesisComponent/> */}
     </div>
     </div>
     </>

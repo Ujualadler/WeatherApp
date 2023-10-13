@@ -1,6 +1,7 @@
 import "./Style.css";
 import { Button } from "semantic-ui-react";
 import moment from "moment";
+import SpeechSynthesisComponent from "./SpeechSynthesis";
 
 export function Weather({ weatherData }) {
   const refresh = () => {
@@ -47,6 +48,12 @@ export function Weather({ weatherData }) {
             )}
           </p>
         </div>
+        <SpeechSynthesisComponent
+  textToSpeak={`The weather data is as follows: Date is ${new Date(
+    weatherData?.sys?.sunset * 1000
+  ).toLocaleTimeString('en-IN')}, Temperature is ${weatherData?.main?.temp}, Humidity is ${weatherData?.main?.humidity}`}
+/>
+
       </div>  
     </div>
   );

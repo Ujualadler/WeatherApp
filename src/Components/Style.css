@@ -71,7 +71,27 @@
     font-weight: 600;
 }
 
-.button{
-    width: 35px;
-    height: 35px;
+.button2{
+    width: 100px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    background-color: dimgray;
+    border-radius: 0 10% 0 10%;
+    margin: 10px;
+    
+}
+
+.speak{
+    display: flex;
+    justify-content: space-between;
+}
+.voice{
+    /* width:; */
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    background-color: dimgray;
+    border-radius: 0 10% 0 10%;
+    margin: 10px;
 }
